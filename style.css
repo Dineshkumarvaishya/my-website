@@ -90,3 +90,21 @@ button {
     font-weight: bold;
     animation: colorChange 4s infinite; /* 4 seconds duration, infinite loop */
 }
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media screen and (max-width: 768px) {
+    .welcome-text {
+        font-size: 5vw; /* Small screens par text automatically resize hoga */
+    }
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.box {
+    width: 100%; /* Fixed width hataakar percentage width use karein */
+}
+
