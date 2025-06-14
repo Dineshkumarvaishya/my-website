@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Welcome Page -->
+    <div class="welcome-container" id="welcome">
+        <marquee>        <h1 class="color-text">Welcome to Real Estate Portal</h1> </marquee>
+        <p>Find and list rental rooms easily!</p>
+        <button onclick="location.href='#account'">Get Started</button>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <h2>Real Estate Portal</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#rooms">Rooms</a></li>
+            <li><a href="#account">Register</a></li>
+        </ul>
+    </nav>
+
+    <!-- Account Selection -->
+    <section id="account">
+        <h2>Choose Your Account Type</h2>
+        <div class="account-options">
+            <div class="account-box">
+                <h3>Room Owner</h3>
+                <p>List your rental room with full details.</p>
+                <button onclick="location.href='owner.html'">Register as Owner</button>
+            </div>
+            <div class="account-box">
+                <h3>Room Rental</h3>
+                <p>Browse available rooms and rent easily.</p>
+                <button onclick="location.href='rental.html'">Register as Rental</button>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
