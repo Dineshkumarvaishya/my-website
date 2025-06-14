@@ -10,10 +10,6 @@ body {
     color: rgb(21, 0, 255);
     text-align: center;
 }
-#welcome h1{
-   font-size: 50px;
-   
-}
 
 /* Navigation Bar */
 nav {
@@ -44,7 +40,6 @@ nav ul li a {
 /* Welcome Section */
 .welcome-container {
     padding: 50px;
-    width: 1500px;
     border-radius: 10px;
     display: inline-block;
     margin-top: 50px;
